@@ -40,8 +40,9 @@ int main() {
 	std::vector<int> v = { 56, 43, 7695234 };
 	lastDigits3(&v);
 
-	for (const auto& x : v) {
-		std::cout << x << ' ';
+	for (int i = 0; i < v.size(); i++) 
+	{
+		std::cout << v[i] << ' ';
 	}
 
 	return 0;
